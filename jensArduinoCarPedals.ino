@@ -31,6 +31,9 @@ int clutchValue = 0;
 int clutchValuebyte1 = 0;
 int clutchValuebyte2 = 0;
 
+// Create the Joystick
+Joystick_ Joystick;
+
 // init joystick libary
 void setup() {
   Joystick.begin();
